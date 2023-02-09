@@ -13,40 +13,40 @@
 
 **$ git config --list** 
 
-Estes são os comandos que servem para subir um arquivo para o Github pelo terminal Git Bash
+**$ git config --local user.name "Nome da pessoa"** (Este comando serve para que o nome da pessoal que esta moodificando seja apenas para um repositorio definido e não global.) 
 
-**git init** (serve para iniciar um repositório git na pasta em que se encontra os arquivos)
+-----------------------------------------------------------------------------------------------------
 
-**git add README.md** (Não é necessario este comando, pois ele só ira adicionar um readme para leitura do usuário no git)
+   ## Comandos mais usados:
+   Estes são os comandos que servem para subir um arquivo para o Github pelo terminal Git Bash:
 
-**git commit -m "first commit"** (Este comando serve para comitar os arquivos com uma mensagem entre "mensagem")
+**$ git init** (serve para iniciar um repositório git na pasta em que se encontra os arquivos)
 
-**git branch -M main** (Este comando serve para criar uma branch main e é necessario apenas no primeiro commit dos arquivos)
+**$ git add README.md** (Não é necessario este comando, pois ele só ira adicionar um readme para leitura do usuário no git)
 
-**git remote add origin https://github.com/CaioGunz/teste.git** (Este comando também só é utilizado no primeiro commit dos arquivos e deve ter o link onde está o repositorio do GitHub)
+**$ git commit -m "first commit"** (Este comando serve para comitar os arquivos com uma mensagem entre "mensagem")
 
-**git push -u origin main** (Este comando serve para subir os arquivos do Computador(Local) para o GitHub(remoto))
-   
-O comando para mostrar  os commits que foram feitos é o:
+**$ git branch -M main** (Este comando serve para criar uma branch main e é necessario apenas no primeiro commit dos arquivos)
 
-**$ git log**
+**$ git remote add origin https://github.com/CaioGunz/teste.git** (Este comando também só é utilizado no primeiro commit dos arquivos e deve ter o link onde está o repositorio do GitHub)
 
-e o comando para mostrar essas informações resumidas pode ser usado o:
+**$ git push -u origin main** (Este comando serve para subir os arquivos do Computador(Local) para o GitHub(remoto))
 
-**$ git log --oneline** 
+**$ git status** (é o comando em que verifica qual arquivo foi modificado e se ele ja foi comitado, caso não tenha sido o nome do arquivo vai aparecer em vermelhor, e depois de ser comitado ira aparecer em verde após rodar o este comando)
 
-assim será mostrado todos os commits sem informações adicionais.
+-----------------------------------------------------------------------------------------------------
 
-O comando para mostrar  os commits que foram feitos é o:
+**$ git log** (O comando para mostrar  os commits que foram feitos)
 
-**$ git log**
+**$ git log --oneline** (É o comando para mostrar essas informações resumidas pode ser usado, assim será mostrado todos os commits sem informações adicionais)
 
-e o comando para mostrar essas informações resumidas pode ser usado o:
+**$ git log -p** (Para mostrar todos os commits sem informações adicionais)
 
-**$ git log --oneline**
 
-assim será mostrado todos os commits sem informações adicionais. E para ver as alterações do commit usa o comando:
 
-**$ git log -p**
 
+## Alguns sites para ajudar no dia a dia com o GitHub:
+
+Git log cheatsheet:
+   https://devhints.io/git-log
 
