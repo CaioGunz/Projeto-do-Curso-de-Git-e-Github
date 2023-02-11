@@ -36,12 +36,20 @@
 
 -----------------------------------------------------------------------------------------------------
 
+## Outros comandos do Git
+
 **$ git log** (O comando para mostrar  os commits que foram feitos)
 
 **$ git log --oneline** (É o comando para mostrar essas informações resumidas pode ser usado, assim será mostrado todos os commits sem informações adicionais)
 
 **$ git log -p** (Para mostrar todos os commits sem informações adicionais)
 
+
+## Comandos para usar no terminal do git (serve para linux também) e Navegar/Criar pastas e arquivos
+
+**cd ..** serve para voltar uma pasta (ou subir como  alguns chamam)
+
+**mkdir (nome da pasta)** serve para criar uma pasta
 
 
 
