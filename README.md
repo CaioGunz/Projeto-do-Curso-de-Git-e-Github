@@ -44,10 +44,16 @@
 
 **$ git merge  (nome da branch)** (Serve para unir duas branch diferentes, no nome da branch deve ser colocado qual vai ser unida. Quando feito isso vai aparecer para confirmar apertando **:x**)
 
+**$ git rebase (nome da branch)** (Serve para que o git una o commit citado com a master e a master passe a frente daquela branch e traz todos os commits da outra branch para a master junto com os que ela já possui e mantem o último trabalho feita na master)
+
+**$ git revert (has do commit)** (Serve para reverter um commit que foi enviado com erro)
+
 
 -----------------------------------------------------------------------------------------------------
 
 ## Outros comandos do Git
+
+**$ git checkout -- (nome do arquivo)** (Serve para descartar as últimas alterações feitas)
 
 **$ git log** (O comando para mostrar  os commits que foram feitos)
 
@@ -60,6 +66,14 @@
 **$ git remote** (Serve para listar os repositorios)
 
 **$ git remote -v** (Serve para mostrar o endereço do repositorio local)
+
+**$ git stash** (Serve para armazenar temporariamente o que foi modificado  sem precisar commitar)
+
+**$ git stash list** (Serve para mostrar a lista de stash salvo)
+
+**$ git stash pop** (Serve para remover a ultima modificação feita e aplicar no arquivo)
+
+**$ git checkout (7 primeiros digitos do hash da branch)** (Serve para navegar entre os commits)
 
 
 
