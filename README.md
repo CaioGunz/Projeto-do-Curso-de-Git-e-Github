@@ -34,6 +34,17 @@
 
 **$ git status** (é o comando em que verifica qual arquivo foi modificado e se ele ja foi comitado, caso não tenha sido o nome do arquivo vai aparecer em vermelhor, e depois de ser comitado ira aparecer em verde após rodar o este comando)
 
+**$ git pull (URL do repositório)** (Serve para puxar um repositórios para um desktop local)
+
+**$ git clone (Endereço/URL)** (Serve para clonar um repositório de um endereço)
+
+**$ git branch (nome do novo branch)** (Serve para criar um novo branch(linha de desenvolvimento))
+
+**$ git checkout (Nome da Branch)** (Serve para mudar em qual branch você está)
+
+**$ git merge  (nome da branch)** (Serve para unir duas branch diferentes, no nome da branch deve ser colocado qual vai ser unida. Quando feito isso vai aparecer para confirmar apertando **:x**)
+
+
 -----------------------------------------------------------------------------------------------------
 
 ## Outros comandos do Git
@@ -42,7 +53,14 @@
 
 **$ git log --oneline** (É o comando para mostrar essas informações resumidas pode ser usado, assim será mostrado todos os commits sem informações adicionais)
 
-**$ git log -p** (Para mostrar todos os commits sem informações adicionais)
+**$ git log -p** (Para mostrar qual foram as modificações feitas no repositório)
+
+**$ git remote add (nome do repositorio) e a URL(de qualquer endereço)** (Serve para adicionar um repositorio remoto pelo terminal git)
+
+**$ git remote** (Serve para listar os repositorios)
+
+**$ git remote -v** (Serve para mostrar o endereço do repositorio local)
+
 
 
 ## Comandos para usar no terminal do git (serve para linux também) e Navegar/Criar pastas e arquivos
