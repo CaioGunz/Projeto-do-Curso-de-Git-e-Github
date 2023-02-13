@@ -75,7 +75,11 @@
 
 **$ git checkout (7 primeiros digitos do hash da branch)** (Serve para navegar entre os commits)
 
+**$ git tag -a (versão) (-m "", não é obrigatório colocar uma mensagem)** (Serve para marcar um release do código, tornando pronto para um usuário baixar)
 
+**$ git push (branch) (nome da release)** (Serve para fazer um push de uma TAG/Release)
+
+-----------------------------------------------------------------------------------------------------
 
 ## Comandos para usar no terminal do git (serve para linux também) e Navegar/Criar pastas e arquivos
 
@@ -83,7 +87,7 @@
 
 **mkdir (nome da pasta)** serve para criar uma pasta
 
-
+-----------------------------------------------------------------------------------------------------
 
 ## Alguns sites para ajudar no dia a dia com o GitHub:
 
